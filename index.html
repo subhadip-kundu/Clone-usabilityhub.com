@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>22-01-2023</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
 </head>
 
 <body>
@@ -24,7 +25,7 @@
             <a href="#" class="logo">
                 <img src="./assets/asset 1.png" alt="company-logo">
             </a>
-            <div class="nav-links">
+            <div class="nav-links " id="nav-links">
                 <ul class="flex">
                     <li><a href="#" class="hover-links">Projects</a></li>
                     <li><a href="#" class="hover-links">Connect me</a></li>
@@ -35,6 +36,9 @@
                 </ul>
 
             </div>
+            <a href="#" class="nav-toggle hover-links" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </a>
         </div>
 
     </nav>
@@ -142,7 +146,10 @@
         </div>
     </section>
     <section class="big-feature-section">
-        <div class="container flex big-feature-container">
+        <div class="container flex big-feature-container" id="second-big-feature">
+            <div class="feature-image ">
+                <img src="./assets/asset 21.png" alt="">
+            </div>
 
             <div class="features-desc flex">
                 <h4>
@@ -154,9 +161,6 @@
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, veritatis.
                 </p>
-            </div>
-            <div class="feature-image">
-                <img src="./assets/asset 21.png" alt="">
             </div>
         </div>
     </section>
@@ -261,6 +265,7 @@
     </div>
 
     <script src="https://kit.fontawesome.com/7a684040fb.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
