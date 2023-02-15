@@ -239,7 +239,10 @@ header {
 #second-big-feature{
     flex-direction: row-reverse;
 }
-
+#space{
+    float:right;
+    margin-right: 30px;
+}
 .big-feature-container {
     gap: 30px;
 }
